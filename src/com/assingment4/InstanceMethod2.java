@@ -24,6 +24,5 @@ public class InstanceMethod2 {
         z = x + y;
         System.out.println(+x + "+" + y + " = " + z);
         staticmethod();
-
     }
 }
