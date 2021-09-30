@@ -1,34 +1,31 @@
 package com.assignment2;
 
 public class ConstructorQ3 {
-    static int b;     //Static Variable
-    int a;          //Instance Variable
+    static int b = 20;     //Static Variable
+    int a = 20;          //Instance Variable
 
     ConstructorQ3() {               //Constructor
-        a = 20;
-        b = 30;
+        int c;
+        c = a + b;
+        System.out.println(a + " + " + b + " = " + c);
+        multiply();
+        add();
     }
 
     static void multiply()         //Static Method
     {
-        int c;                      //Local Variable
-        ConstructorQ3 cQ1 = new ConstructorQ3();
-        c = cQ1.a * b;
-        System.out.println("Multiplication = " + c);
+        System.out.println("Static Method");
 
     }
 
     public static void main(String[] args) {
         System.out.println("Welcome");
         ConstructorQ3 cQ1 = new ConstructorQ3();
-        cQ1.add();
-        ConstructorQ3.multiply();
     }
 
     void add()      //Instance Method
     {
-        int c;      //Local Variable
-        c = a + b;
-        System.out.println("Addition = " + c);
+        System.out.println("Instance Method");      //Local Variable
+
     }
 }
