@@ -11,15 +11,15 @@ public class StaticMethod2 {
         System.out.println("Emp ID: " + id + " " + ",Name: " + name + " " + ",Salary: " + salary);
     }
 
-    public static void main(String[] args) {
-        employee2();
-    }
-
     void employee1() {
         System.out.println("Instance Method");
         float salary = 100000;
         int id = 1;
         String name = "AAA";
         System.out.println("Emp ID: " + id + " " + ",Name: " + name + " " + ",Salary: " + salary);
+    }
+
+    public static void main(String[] args) {
+        employee2();
     }
 }
