@@ -6,6 +6,7 @@ class A {
     static float salary;   //Static Variable
 
     static{     //Static Block
+
         System.out.println("Class A Static Block");
     }
 
