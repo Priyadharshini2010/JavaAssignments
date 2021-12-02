@@ -13,7 +13,7 @@ class ChildClass extends BaseClass {
 
 
     void student2() {
-        this.student1();
+        this.student1(); // refers to parent class method.
         System.out.println("Student 2");
         int Sno = 2;
         String name = "BBB";
@@ -28,6 +28,5 @@ public class SingleInh {
         bc1.student1();
         ch1.student1();
         ch1.student2();
-
     }
 }
