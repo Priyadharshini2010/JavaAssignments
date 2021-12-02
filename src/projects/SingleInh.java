@@ -10,14 +10,7 @@ class BaseClass {
 }
 
 class ChildClass extends BaseClass {
-    public static void main(String[] args) {
-        ChildClass ch1 = new ChildClass();
-        BaseClass bc1 = new BaseClass();
-        bc1.student1();
-        ch1.student1();
-        ch1.student2();
 
-    }
 
     void student2() {
         this.student1();
@@ -26,8 +19,15 @@ class ChildClass extends BaseClass {
         String name = "BBB";
         float marks = 92;
     }
+    }
 
-    public class SingleInh {
+public class SingleInh {
+    public static void main(String[] args) {
+        ChildClass ch1 = new ChildClass();
+        BaseClass bc1 = new BaseClass();
+        bc1.student1();
+        ch1.student1();
+        ch1.student2();
 
     }
 }
