@@ -46,7 +46,7 @@ public class MethodSamples {
     }
 
     short display(short m1) {
-        return (short) m1;
+        return m1;
     }
 
     byte displayNumber(byte num1) {
