@@ -3,6 +3,8 @@ package exercises;
 public class MethodSamples {
     public static void main(String[] args) {
         MethodSamples ms1 = new MethodSamples();
+        short dispNum = ms1.display((short) 10000);
+        System.out.println("Display number = " + dispNum);
         int intResult = ms1.add(10, 20);
         System.out.println("Addition Result = " + intResult);
         float floatResult = ms1.multiply(10, intResult);
@@ -28,5 +30,9 @@ public class MethodSamples {
 
     long addition(long first, long second) {
         return first + second;
+    }
+
+    short display(short m1) {
+        return (short) m1;
     }
 }
