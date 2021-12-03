@@ -4,7 +4,13 @@ public class MethodSamples {
     public static void main(String[] args) {
         MethodSamples ms1 = new MethodSamples();
         short dispNum = ms1.display((short) 10000);
-        System.out.println("Display number = " + dispNum);
+        System.out.println("Display number(short) = " + dispNum);
+        byte showNumber = ms1.displayNumber((byte) 20);
+        System.out.println("Display number(byte) = " + showNumber);
+        boolean verify = ms1.verifyTrue(true);
+        System.out.println("Verify true or false = " + verify);
+        char alphabet = ms1.displayAlphabet('a');
+        System.out.println("Concatenation of 2 Alphabets = " + alphabet);
         int intResult = ms1.add(10, 20);
         System.out.println("Addition Result = " + intResult);
         float floatResult = ms1.multiply(10, intResult);
@@ -34,5 +40,17 @@ public class MethodSamples {
 
     short display(short m1) {
         return (short) m1;
+    }
+
+    byte displayNumber(byte num1) {
+        return num1;
+    }
+
+    boolean verifyTrue(boolean result) {
+        return result;
+    }
+
+    char displayAlphabet(char alpha1) {
+        return alpha1;
     }
 }
