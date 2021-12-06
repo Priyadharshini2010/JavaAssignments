@@ -10,6 +10,15 @@ public class StringExamples {
         name = name.concat("dharshini");
         System.out.println(name);
 
+        System.out.println(name.substring(5));
+        System.out.println(name.substring(0, 5));
+        System.out.println(name.toLowerCase());
+        System.out.println(name.toUpperCase());
+        System.out.println(name.length());
+        String message = "     Hello        World";
+        System.out.println(message.trim());
+        System.out.println(name.charAt(7));
+
 
     }
 
