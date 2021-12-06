@@ -18,10 +18,10 @@ public class MethodSamples {
         int intResult = ms1.add(10, 20);
         System.out.println("Addition Result = " + intResult);
 
-        float floatResult = ms1.multiply(10, intResult);
+        float floatResult = ms1.multiply(10f, intResult);
         System.out.println("Multiplication Result = " + floatResult);
 
-        double markResult = ms1.multiplyTwoNum(686, floatResult);
+        double markResult = ms1.multiplyTwoNum(686d, floatResult);
         System.out.println("Multiplication of two numbers = " + markResult);
 
         long longResult = ms1.addition(1000000960900000L, 2330074565000000L);
