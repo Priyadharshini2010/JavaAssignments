@@ -24,9 +24,26 @@ public class MethodSamples {
         double markResult = ms1.multiplyTwoNum(686d, floatResult);
         System.out.println("Multiplication of two numbers = " + markResult);
 
-        long longResult = ms1.addition(1000000960900000L, 2330074565000000L);
+        long longResult = ms1.addition(1000000960900000l, 2330074565000000l);
         System.out.println("Addition of two double value = " + longResult);
 
+    }
+
+    //Methods
+    short display(short m1) {
+        return m1;
+    }
+
+    byte displayNumber(byte num1) {
+        return num1;
+    }
+
+    boolean verifyTrue(boolean result) {
+        return result;
+    }
+
+    char displayAlphabet(char alpha1) {
+        return alpha1;
     }
 
     int add(int num1, int num2) {
@@ -43,21 +60,5 @@ public class MethodSamples {
 
     long addition(long first, long second) {
         return first + second;
-    }
-
-    short display(short m1) {
-        return m1;
-    }
-
-    byte displayNumber(byte num1) {
-        return num1;
-    }
-
-    boolean verifyTrue(boolean result) {
-        return result;
-    }
-
-    char displayAlphabet(char alpha1) {
-        return alpha1;
     }
 }
