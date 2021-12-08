@@ -9,7 +9,7 @@ public class WrapperClass {
     }
 
     void employee1() {
-        Integer empId = 14;
+        Integer empId = null;
         Character empTeam = 'A';
         Float salary = 50000f;
         String empName = "aaaa";
@@ -18,7 +18,10 @@ public class WrapperClass {
     }
 
     void employee2() {
-        int empId = 15;
+        int empId = 0;
+        if (empId == 0) {
+            empId = 50;
+        }
         char empTeam = 'B';
         float salary = 60000f;
         String empName = "bbbb";
