@@ -1,26 +1,13 @@
 package exercises;
-
-class Apple {
-    int interestRate = 6;
-    int finalInterest;
-
-    void interest() {
-        int oldInterest = 2;
-        finalInterest = interestRate - oldInterest;
+class Bank1 {
+    int interest(int num1) {
+        return 2 + num1;
     }
 }
 
-public class Sample extends Apple {
+public class Sample extends Bank1 {
     public static void main(String[] args) {
-        Sample ex1 = new Sample();
-        ex1.interest();
+
 
     }
-
-    void interest() {
-        int oldInterest = 9;
-        int newInterest = oldInterest + super.finalInterest;
-        System.out.println(newInterest);
-    }
-
 }

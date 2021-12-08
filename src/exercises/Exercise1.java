@@ -1,46 +1,39 @@
 package exercises;
 
 class RBIBank {
-
-    int diff;
-    int oldInterest = 2;
-
+    int percentageIncrease = 3;
     int interest(int interestRate) {
-        System.out.println("RBI Bank Interest: " + interestRate);
-        diff = interestRate - oldInterest;
-        System.out.println("Increase in Interest Rate: " + diff);
-        return diff;
+        System.out.println("Increase in Interest Rate: " + percentageIncrease);
+        int rbiInterest = percentageIncrease + interestRate;
+        System.out.println("RBI Bank Interest: " + rbiInterest);
+        return rbiInterest;
     }
 }
 
 class SBIBank extends RBIBank {
-    int oldInterest = 7;
 
     int interest(int interestRate) {
-        return oldInterest + interestRate;
+        return super.percentageIncrease + interestRate;
     }
 }
 
 class HDFCBank extends RBIBank {
-    int oldInterest = 4;
 
     int interest(int interestRate) {
-        return oldInterest + interestRate;
+        return super.percentageIncrease + interestRate;
     }
 }
 
 public class Exercise1 extends RBIBank {
-    int oldInterest = 5;
-
     public static void main(String[] args) {
         Exercise1 ex1 = new Exercise1();
         RBIBank rbi = new RBIBank();
         SBIBank sbi = new SBIBank();
         HDFCBank hdfc = new HDFCBank();
-        int rbiDiff = rbi.interest(9);
-        int canInterest = ex1.interest(rbiDiff);
-        int sbiInterest = sbi.interest(rbiDiff);
-        int hdfcInterest = hdfc.interest(rbiDiff);
+        int rbiDiff = rbi.interest(2);
+        int canInterest = ex1.interest(4);
+        int sbiInterest = sbi.interest(6);
+        int hdfcInterest = hdfc.interest(5);
         System.out.println("Canara Bank Interest: " + canInterest);
         System.out.println("SBI Bank Interest: " + sbiInterest);
         System.out.println("HDFC Bank Interest: " + hdfcInterest);
@@ -48,7 +41,7 @@ public class Exercise1 extends RBIBank {
     }
 
     int interest(int interestRate) {
-        return oldInterest + interestRate;
+        return super.percentageIncrease + interestRate;
     }
 
 }
