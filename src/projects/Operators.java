@@ -1,4 +1,4 @@
-package exercises;
+package projects;
 
 public class Operators {
     public int num1 = 10, num2 = 100;

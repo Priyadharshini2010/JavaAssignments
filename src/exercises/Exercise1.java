@@ -6,7 +6,9 @@ class RBIBank {
     int oldInterest = 2;
 
     int interest(int interestRate) {
+        System.out.println("RBI Bank Interest: " + interestRate);
         diff = interestRate - oldInterest;
+        System.out.println("Increase in Interest Rate: " + diff);
         return diff;
     }
 }
@@ -36,12 +38,12 @@ public class Exercise1 extends RBIBank {
         SBIBank sbi = new SBIBank();
         HDFCBank hdfc = new HDFCBank();
         int rbiDiff = rbi.interest(9);
-        int iciciInterest = ex1.interest(rbiDiff);
+        int canInterest = ex1.interest(rbiDiff);
         int sbiInterest = sbi.interest(rbiDiff);
         int hdfcInterest = hdfc.interest(rbiDiff);
-        System.out.println(iciciInterest);
-        System.out.println(sbiInterest);
-        System.out.println(hdfcInterest);
+        System.out.println("Canara Bank Interest: " + canInterest);
+        System.out.println("SBI Bank Interest: " + sbiInterest);
+        System.out.println("HDFC Bank Interest: " + hdfcInterest);
 
     }
 

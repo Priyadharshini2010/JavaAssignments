@@ -1,4 +1,4 @@
-package exercises;
+package projects;
 
 public class WrapperClass {
     public static void main(String[] args) {
