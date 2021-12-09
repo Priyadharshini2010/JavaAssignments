@@ -1,4 +1,4 @@
-package exercises;
+package exercises.methods;
 
 public class MethodSamples {
     public static void main(String[] args) {
@@ -6,7 +6,8 @@ public class MethodSamples {
         short dispNum = ms1.display((short) 10000);
         System.out.println("Display number(short) = " + dispNum);
 
-        byte showNumber = ms1.displayNumber((byte) 20);
+        byte showNumber = 20;
+        showNumber = ms1.displayNumber(showNumber);
         System.out.println("Display number(byte) = " + showNumber);
 
         boolean verify = ms1.verifyTrue(true);
@@ -35,7 +36,7 @@ public class MethodSamples {
     }
 
     byte displayNumber(byte num1) {
-        return num1;
+        return 100;
     }
 
     boolean verifyTrue(boolean result) {

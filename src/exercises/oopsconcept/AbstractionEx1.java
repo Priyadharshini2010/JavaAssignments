@@ -1,4 +1,4 @@
-package exercises;
+package exercises.oopsconcept;
 
 abstract class Food {
     String foodName;

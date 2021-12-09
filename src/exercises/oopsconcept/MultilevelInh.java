@@ -1,4 +1,4 @@
-package projects;
+package exercises.oopsconcept;
 
 class A {
     void emp1() {

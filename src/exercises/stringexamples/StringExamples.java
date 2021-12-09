@@ -1,4 +1,4 @@
-package exercises.stringsexamples;
+package exercises.stringexamples;
 
 public class StringExamples {
     public static void main(String[] args) {

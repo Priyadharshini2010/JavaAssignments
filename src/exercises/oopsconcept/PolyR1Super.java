@@ -1,4 +1,4 @@
-package projects;
+package exercises.oopsconcept;
 
 class PolyA1 {
     void method1() {

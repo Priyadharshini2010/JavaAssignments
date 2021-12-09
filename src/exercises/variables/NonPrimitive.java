@@ -1,4 +1,4 @@
-package projects;
+package exercises.variables;
 
 public class NonPrimitive {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package exercises.loopsexamples;
+package exercises.loopexamples;
 
 public class LoopExamples {
     public static void main(String[] args) {

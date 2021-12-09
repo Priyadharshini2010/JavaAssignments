@@ -1,4 +1,4 @@
-package projects;
+package exercises.variables;
 
 public class Project1 {
     static int b = 20;

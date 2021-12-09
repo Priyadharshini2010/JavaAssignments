@@ -1,4 +1,4 @@
-package projects;
+package exercises.methods;
 
 public class Methods {
     static void method2() {

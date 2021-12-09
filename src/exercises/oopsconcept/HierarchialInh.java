@@ -1,4 +1,4 @@
-package projects;
+package exercises.oopsconcept;
 
 class Apple {
     void emp1() {

@@ -1,4 +1,4 @@
-package exercises;
+package exercises.stringexamples;
 
 public class ComparingTwoStrings {
     public static void main(String[] args) {
