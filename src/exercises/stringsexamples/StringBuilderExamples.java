@@ -1,4 +1,4 @@
-package projects;
+package exercises.stringsexamples;
 
 public class StringBuilderExamples {
     public static void main(String[] args) {

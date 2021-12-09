@@ -1,4 +1,4 @@
-package workouts;
+package exercises.stringsexamples;
 
 public class StringExample {
     public static void main(String args[]) {
