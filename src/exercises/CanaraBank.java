@@ -26,15 +26,15 @@ class HDFCBank extends RBIBank {
     }
 }
 
-public class Exercise1 extends RBIBank {
+public class CanaraBank extends RBIBank {
     public static void main(String[] args) {
 
-        Exercise1 ex1 = new Exercise1();
+        CanaraBank canara = new CanaraBank();
         RBIBank rbi = new RBIBank();
         SBIBank sbi = new SBIBank();
         HDFCBank hdfc = new HDFCBank();
         rbi.interest(2);
-        int canInterest = ex1.interest(4);
+        int canInterest = canara.interest(4);
         int sbiInterest = sbi.interest(6);
         int hdfcInterest = hdfc.interest(5);
         System.out.println("Canara Bank Interest: " + canInterest);
