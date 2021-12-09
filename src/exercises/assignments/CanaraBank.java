@@ -1,4 +1,4 @@
-package exercises;
+package exercises.assignments;
 
 class RBIBank {
     int percentageIncrease = 3;

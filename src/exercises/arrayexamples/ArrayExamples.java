@@ -1,4 +1,4 @@
-package exercises.arraysexamples;
+package exercises.arrayexamples;
 
 public class ArrayExamples {
     public static void main(String[] args) {
