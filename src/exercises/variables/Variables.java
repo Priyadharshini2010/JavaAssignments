@@ -1,4 +1,4 @@
-package variables;
+package exercises.variables;
 
 public class Variables {
     static int b = 20; //Static Variable

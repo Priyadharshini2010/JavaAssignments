@@ -1,4 +1,4 @@
-package projects;
+package exercises.variables;
 
 public class LocalVariables {
     {
