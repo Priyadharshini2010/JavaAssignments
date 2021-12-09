@@ -1,4 +1,4 @@
-package projects;
+package exercises;
 
 public class NamedApproach {
     NamedApproach() {

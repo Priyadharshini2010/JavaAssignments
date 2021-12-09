@@ -1,4 +1,4 @@
-package projects;
+package com.assignment2;
 
 public class MultiIB {
     {
