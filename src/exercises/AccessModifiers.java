@@ -10,6 +10,8 @@ class Animal {
 
     void animalCount() //default
     {
+        Animal a2 = new Animal();
+        a2.count();
         System.out.println("Hello");
     }
 
