@@ -1,4 +1,4 @@
-package exercises;
+package exercises.accessmodifiers.access1;
 
 class Animal {
 
@@ -20,9 +20,11 @@ class Animal {
     }
 }
 
-public class AccessModifiers {
+public class AccessModifiers extends Animals {
     public static void main(String[] args) {
         Animal a1 = new Animal();
+        AccessModifiers ac1 = new AccessModifiers();
+        ac1.animalCount();
         a1.animalCount();
     }
 
